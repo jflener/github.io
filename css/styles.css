@@ -1,0 +1,92 @@
+/* Style sheet created by: Jayson Flener, 3/10/22*/
+
+/* Style for body specifies a background color */ 
+body {
+	background-color: #1D1D1C;
+}
+
+/* style to create a fluid image */	
+img { 
+		max-width: 100%;
+		padding: 3%;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center aligns content */
+header {
+	text-align: center; 
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: italic;
+	text-align: left;
+	margin-top: 1.5em;
+}
+
+/* Styles for main specifies block display, text properties, margins, padding, rounded borders, and shadow */
+nav ul {
+		padding: 1;
+		margin-top: .75em;
+		margin-bottom: .75em;
+}
+
+/* styles for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and paddling for list items within the navigation */
+nav li {
+		background-color: #000000;
+		border-radius: 2em;
+		list-style-type: none; 
+		margin: .2em;
+		padding: .5em;
+}
+
+nav li a{
+	color: #9D9D93;
+	text-decoration: none;
+}
+
+/* style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */ 
+main {
+	display: block;
+	font-family: Verdana, Ariel, sans-serif;
+	font-size: 1em;
+	margin-top: .5em;
+	margin-bottom: 1em;
+	padding: 1em;
+	border-radius: 2em 0 2em 0;
+	background-color: #FFFFFF;
+	border-top: solid .3em #009933;
+	border-bottom: solid .3em #009933;
+	opacity: .85;
+}
+
+/* Style for anchor elements within the main element */
+main a{
+	border-radius: 1em;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: .25em;
+	text-decoration: none;
+}
+
+/* Styles for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .50em;
+	text-align: left;
+	margin-top: 2em;
+	color: #FFFFFF;
+}
+
+/* Style for anchor element within the footer */
+footer a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+main li{
+	background-color: #c4c4c4;
+	font-size: 1em;
+	padding-bottom: .5em;
+	background-color: #9D9D93;
+}
